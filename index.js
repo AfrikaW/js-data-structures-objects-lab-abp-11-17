@@ -23,8 +23,8 @@ function deleteFromDriverByKey(driver, key) {
   return newDriver
 }
 
-function destructivelyDeleteFromDriverByKey(object, name){
-let newDriver = destructivelyDeleteFromDriverByKey(driver, object, name);
+function destructivelyDeleteFromDriverByKey(driver, key){
+let newDriver = destructivelyDeleteFromDriverByKey(driver, key);
 return driver;
 
 }
